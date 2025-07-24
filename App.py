@@ -1,7 +1,7 @@
 # House-price-app-streamlit
 import streamlit as st
 import joblib
-
+st.write("JOBLIB IMPORTED")
 # Load the saved model
 model = joblib.load('model.pkl')
 
